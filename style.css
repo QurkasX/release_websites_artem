@@ -1,0 +1,138 @@
+*{
+    margin:0;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a{
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+
+}
+P{
+    transition: transform 0.3s ease;
+}
+p:hover{
+    transform: translateX(10px);
+    }
+
+h1{
+    transition: transform 0.3s ease;
+}
+h1:hover{
+    transform: translateX(10px);
+    }
+
+h2{
+    transition: transform 0.3s ease;
+}
+h2:hover{
+    transform: translateX(10px);
+    }
+
+li{
+    transition: transform 0.3s ease;
+}
+li:hover{
+    transform: translateX(10px);
+    }
+
+
+header img{
+
+    height: 50px;
+  border-radius: 5px;
+}
+
+
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  }
+
+header{
+    background-color: #1a1a1a;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mainbmw img{
+    width: 680px;
+    height: 420px;
+}
+main h1{
+    margin:30px;
+
+
+}
+
+main h2{margin:30px;
+}
+   
+
+
+main p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px;
+    
+}
+
+
+.blacklisttable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: #111;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+
+.blacklisttable thead {
+    background-color: #222;
+}
+
+.blacklisttable th,
+.blacklisttable td {
+    padding: 12px 15px;
+    border: 1px solid #333;
+}
+
+.blacklisttable tbody tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+.blacklisttable tbody tr:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+footer.site {
+  background-color: #1a1a1a;
+  padding: 20px;
+  color: #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer.site a {
+  color: #fff;
+  text-decoration: none;
+}
+
